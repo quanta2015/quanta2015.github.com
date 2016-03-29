@@ -1,0 +1,433 @@
+{
+  "header": {
+    "name": "李阳",
+    "title": "自由职业者"
+  },
+  "about": {
+    "socials": {
+      "blog": {
+        "linkTitle": "博客",
+        "url": "http://blog.com/XXXX",
+        "icon": "fa-rss"
+      },
+      "github": {
+        "linkTitle": "Github",
+        "url": "https://github.com/XXXX",
+        "icon": "fa-github"
+      },
+      "twitter": {
+        "linkTitle": "Twitter",
+        "url": "https://twitter.com/XXXX",
+        "icon": "fa-twitter"
+      },
+      "weibo": {
+        "linkTitle": "微博",
+        "url": "http://weibo.com/XXXX",
+        "icon": "fa-weibo"
+      },
+      "stackoverflow": {
+        "linkTitle": "StackOverflow",
+        "url": "https://stackoverflow.com/XXXX",
+        "icon": "fa-stack-overflow"
+      }
+    },
+    "introduction": [
+        {"item":"本科计算机应用专业+硕士软件专业+博士计算机系统结构专业"},
+        {"item":"近15年互联网行业经验+超过10年WEB开发经验"},
+        {"item":"博士/副教授"},
+        {"item":"研究方向：网络安全 云计算 数据挖掘"}
+      ],
+    "location": "中国杭州",
+    "phone": "(+86) 13515814446",
+    "email": "liyangtom@163.com",
+    "hire": "慢清尘",
+    "img":"img/me.png"
+  },
+  "education": {
+    "universities": [
+      {
+        "name": "浙江大学",
+        "location": "中国杭州",
+        "year": "1996.09-2000.05",
+        "items": [
+          {
+            "icon": "fa fa-star",
+            "text": "计算机应用专业"
+          },
+          {
+            "icon": "fa fa-trophy",
+            "text": "连续四年获二等奖学金"
+          },
+          {
+            "icon": "fa fa-trophy",
+            "text": "1999年浙江省数学建模竞赛三等奖"
+          }
+        ]
+      },
+      {
+        "name": "浙江大学",
+        "location": "中国杭州",
+        "year": "2000.09-2002.04",
+        "items": [
+          {
+            "icon": "fa fa-star",
+            "text": "计算机软件专业"
+          },
+          {
+            "icon": "fa fa-trophy",
+            "text": "2001年获光华奖学金"
+          },
+          {
+            "icon": "fa fa-file-text",
+            "text": "台湾保险系统开发"
+          }
+        ]
+      },
+      {
+        "name": "浙江大学",
+        "location": "中国杭州",
+        "year": "2002.09-2005.04",
+        "items": [
+          {
+            "icon": "fa fa-star",
+            "text": "计算机系统结构"
+          },
+          {
+            "icon": "fa fa-file-text",
+            "text": "华为3COM公司SSH项目负责人"
+          },
+          {
+            "icon": "fa fa-file-text",
+            "text": "发表浙大学报等EI论文6篇"
+          }
+        ]
+      }
+    ]
+  },
+  "employment": {
+    "jobs": [
+      {
+        "name": "华为3COM公司",
+        "position": "项目负责人",
+        "year": "2004.05-2004.11",
+        "description": [
+          {
+            "desc":"华为路由器SSH加密项目"
+          },
+          {
+            "desc":"IETF Secure Shell协议"
+          },
+          {
+            "desc":"底层C语言开发路由器内核"
+          }
+        ]
+      },
+      {
+        "name": "杭州师范大学",
+        "position": "教师",
+        "year": "2005.05-至今",
+        "description": [
+          {  
+            "desc":"网络安全+云计算+数据挖掘"
+          },
+          {
+            "desc":"基于J2EE的构件并行编译方法[发明专利]"
+          },
+          {
+            "desc":"基于异步式安全调用的编译方法[发明专利]"
+          },
+          {
+            "desc":"一种无线传感网络的安全通信方法[发明专利]"
+          }
+        ]
+      },
+      {
+        "name": "杭州亿保健康管理有限公司",
+        "position": "IOS项目经理+技术顾问",
+        "year": "2014.02-2015.2",
+        "description": [
+          {
+            "desc":"IOS健康管理系统开发"
+          },
+          {
+            "desc":"基于多元医疗消费数据的健康动态预测方法[专利]"
+          },
+          {
+            "desc":"基于智能手机的眼睛疲劳度数据分析方法[专利]"
+          },{
+            "desc":"一种消费数据通过信息平台转换成自动理赔信息的方法[专利]"
+          }
+        ]
+      },
+      {
+        "name": "浙江迪安诊断技术股份有限公司",
+        "position": "IOS项目经理+远程病例项目经理",
+        "year": "2015.08-至今",
+        "description": [
+          {
+            "desc":"迪安医药诊断平台系统"
+          },
+          {
+            "desc":"迪安远程病理诊断平台"
+          },
+          {
+            "desc":"希森美康细胞形态学远程会诊系统"
+          }
+        ]
+      }
+    ]
+  },
+  "skill": {
+    "programming": {
+      "text": "编程",
+      "children": [
+        {
+          "text": "前端",
+          "skills": [
+            {
+              "name": "Javascript",
+              "rating": [0,0,0,0,0]
+            },
+            {
+              "name": "HTML",
+              "rating": [0,0,0,0,0]
+            },
+            {
+              "name": "CSS",
+              "rating": [0,0,0,0]
+            }
+          ]
+        },
+        {
+          "text": "后端（自动化脚本）",
+          "skills": [
+            {
+              "name": "JAVA",
+              "rating": [0,0,0]
+            },
+            {
+              "name": "NodeJS",
+              "rating": [0,0,0]
+            }
+          ]
+        },
+        {
+          "text": "底层",
+          "skills": [
+            {
+              "name": "C",
+              "rating": [0,0,0,0,0]
+            },
+            {
+              "name": "PASCAL",
+              "rating": [0,0,0,0]
+            },
+            {
+              "name": "SQL",
+              "rating": [0,0,0,0]
+            }
+          ]
+        }
+      ]
+    },
+    "library": {
+      "text": "常用库",
+      "children": [ 
+          {"item":"JQUERY"},
+          {"item":"BOOTSTRAP"},
+          {"item":"AJAX"},
+          {"item":"JSRender"},
+          {"item":"Leaflet"}
+        ]
+    },
+    "tooling": {
+      "text": "工具",
+      "children": [ 
+          {"item":"GIT"},
+          {"item":"Mac"},
+          {"item":"Atom"},
+          {"item":"SUBLIMETEXT"},
+          {"item":"Eclipse"},
+          {"item":"Phtotshop"}
+        ]
+    },
+    "language": {
+      "text": "外语",
+      "children": [ 
+          {"name": "英语六级"},
+          {"name": "日语二级"}
+        ]
+    }
+  },
+  "project": {
+    "history": [
+      {
+        "icon": "fa-github",
+        "name": "基于构件库的支持协同开发的工作流关键技术研究",
+        "year": "2002.04-2005.06",
+        "library": [ {"item":"构件库"}, {"item":"工作流"}, {"item":"网络服务"}, {"item":"ui-router"}],
+        "description": [ 
+          {"item":"研究构件库的接口形式化定义"},
+          {"item":"研究协同开发环境的语义"},
+          {"item":"研究工作流的动态组织"}
+        ],
+        "links": 
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+      },
+      {
+        "icon": "fa-github",
+        "name": "华为3COM路由器SSH加密项目",
+        "year": "2004.05-2004.11",
+        "library": [ {"item":"SSH协议"}, {"item":"路由器内核"}, {"item":"C语言底层协议"}, {"item":"XXXX"}],
+        "description": [ 
+          {"item":"大型状态机定义"},
+          {"item":"多模态路由数据包发送"},
+          {"item":"网络安全加密协议"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "浙江移动营业厅排队叫号系统",
+        "year": "2005.12-2006.03",
+        "library": [ {"item":"DELPHI"}, {"item":"SQLSERVER"}],
+        "description": [ 
+          {"item":"队列动态调度算法"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "浙江移动城域网中间件管理系统",
+        "year": "2006.06-2007.05",
+        "library": [ {"item":"JS"}, {"item":"ORACLE"}],
+        "description": [ 
+          {"item":"组件动态链接协议"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "http://www.xxxx.com"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "联华华商公司POS机购物系统",
+        "year": "2010.06-2010.12",
+        "library": [ {"item":"POS机"}, {"item":"DELPHI"}],
+        "description": [ 
+          {"item":"POS机组件数据备份协议"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "浙江省军区财务集中管理系统",
+        "year": "2011.01-2011.06",
+        "library": [ {"item":"EXT"}, {"item":"MYSQL"},{"item":"JQUERY"}],
+        "description": [ 
+          {"item":"财务预算网上管理"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "浙江省工商银行网点监控系统",
+        "year": "2012.01-2012.09",
+        "library": [ {"item":"GOOGLE MAP"}, {"item":"MYSQL"},{"item":"JQUERY"}],
+        "description": [ 
+          {"item":"GOOGLE Map离线地图"},
+          {"item":"摄像头接口数据流分析"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "杭州亿保公司IOS医療保険系统",
+        "year": "2014.06-2014.12",
+        "library": [ {"item":"IOS"}, {"item":"XCODE"},{"item":"ORACLE"}],
+        "description": [ 
+          {"item":"百度地图定位路由"},
+          {"item":"医疗保险数据动态构建"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "浙江迪安诊断公司IOS医药诊断平台系统",
+        "year": "2015.09-2015.12",
+        "library": [ {"item":"IOS"}, {"item":"XCODE"},{"item":"ORACLE"}],
+        "description": [ 
+          {"item":"医疗诊断数据上传分析"},
+          {"item":"病理诊断报表在线生成"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "迪安远程病理诊断平台",
+        "year": "2016.02-至今",
+        "library": [ {"item":"JAVASCRIPT"},{"item":"JQUERY"}, {"item":"LEAFLET"},{"item":"MYSQL"},{"item":"JSRENDER"},{"item":"SIGNATURE"},{"item":"BOOTSTRAP"}],
+        "description": [ 
+          {"item":"远程大数据断点上传"},
+          {"item":"数据切片分析诊断"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  }
+}
