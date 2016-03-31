@@ -675,3 +675,14 @@ section .section-title .title h4 {
     display: none;
   }
 }
+
+#paper .cat-title i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #5bc0de;
+    color: #ffffff;
+}

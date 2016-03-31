@@ -429,5 +429,19 @@
         ]
       }
     ]
+  },
+  "paper": {
+    "items": [
+      {
+        "title":"Research on formal semantics of component integration",
+        "year":"2004",
+        "auth":"Li Yang and Wu ZhaoHu"
+      },
+      {
+        "title":"Research on formal semantics of component integration",
+        "year":"2004",
+        "auth":"Li Yang and Wu ZhaoHu"
+      }
+    ]
   }
 }
