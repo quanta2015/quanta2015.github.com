@@ -435,12 +435,122 @@
       {
         "title":"Research on formal semantics of component integration",
         "year":"2004",
-        "auth":"Li Yang and Wu ZhaoHu"
+        "auth":"Li Yang and Wu ZhaoHu",
+        "journal":"Journal of Zhejiang University"
       },
       {
-        "title":"Research on formal semantics of component integration",
+        "title":"一种基于网络构件的软件体系模型并行算法的研究",
         "year":"2004",
-        "auth":"Li Yang and Wu ZhaoHu"
+        "auth":"李阳,吴朝晖",
+        "journal":"浙大学报工学版"
+      },
+      {
+        "title":"Abstract Software Architecture Model Based On Network Component",
+        "year":"2004",
+        "auth":"Li Yang, Zhou Yi and WU ZhaoHui",
+        "journal":"Journal of Zhejiang University"
+      },
+      {
+        "title":"A Research on the Java Architecture of Dynamic Self Healing",
+        "year":"2005",
+        "auth":"Li Yang, ZhaoHui Wu",
+        "journal":"Journal of Zhejiang University"
+      },
+      {
+        "title":"Research on concurrent algorithm of component software architecture",
+        "year":"2004",
+        "auth":"Yang Li, ZhaoHui Wu and Can Wang",
+        "journal":"IEEE International Conference on Systems, Man and Cybernetics 2004"
+      },
+      {
+        "title":"Parallel Algorithm of Network Component Model",
+        "year":"2004",
+        "auth":"Yang Li, ZhaoHui Wu and Can Wang",
+        "journal":"IEEE International Conference on Systems, Man and Cybernetics 2004"
+      },
+      {
+        "title":"Remote Invoking Algorithms of Self-Healing System",
+        "year":"2004",
+        "auth":"Yang Li, ZhaoHui Wu",
+        "journal":"IEEE International Conference on Systems, Man and Cybernetics"
+      },
+      {
+        "title":"Parallel optimization architecture of network component model",
+        "year":"2004",
+        "auth":"Yang Li, Yin Li and ZhaoHui Wu",
+        "journal":"International Conference on Computational Science and its Applications 2004"
+      },
+      {
+        "title":"A Biological Formal Architecture of Self-Healing System",
+        "year":"2004",
+        "auth":"Wang Can, Yang Li",
+        "journal":"IEEE International Conference on Systems, Man and Cybernetics 2004"
+      },
+      {
+        "title":"基于面向服务体系结构的安全异步Web服务",
+        "year":"2009",
+        "auth":"李阳,陈观林",
+        "journal":"浙江大学学报工学版"
+      },
+      {
+        "title":"The Research of Security Asynchronous Web Services based on SOA Architecture",
+        "year":"2008",
+        "auth":"Yang Li, Ya-li Peng, Guo-hua Zhan, Liang Zhang",
+        "journal":"ICNSC2008"
+      },
+      {
+        "title":"A Secure Virtual Verification Model for Wireless Sensor Network",
+        "year":"2010",
+        "auth":"Yang Li,Yingjie Xia,Guo-hua Zhan",
+        "journal":"CSO2010"
+      },
+      {
+        "title":"Multi-hop Encryption Protocol for Wireless Sensor Network",
+        "year":"2011",
+        "auth":"Yang Li, Bin Hu",
+        "journal":"ICNDC 2011"
+      },
+      {
+        "title":"Research on Education Reform of Negative feedback teaching Process based on Cloudy Computing",
+        "year":"2012",
+        "auth":"Yang Li, Bin Hu",
+        "journal":"ICNDC2012"
+      },
+      {
+        "title":"Research on Education Reform of Dynamic P2P Training Framework Based on Cloud Computing",
+        "year":"2013",
+        "auth":"Yang Li, Chen Xiang",
+        "journal":"ICNDC2013"
+      },
+      {
+        "title":"Geometry-Based Virtual Simulation for Fire Escape in Emergency Environment",
+        "year":"2013",
+        "auth":"Chen Xiang,Yang Li",
+        "journal":"ICNDC2013"
+      },
+      {
+        "title":"Research on Education Reform of Dynamic P2P Training Framework Based on Cloud Computing",
+        "year":"2014",
+        "auth":"Yang Li, Chen Xiang",
+        "journal":"ICNDC2014"
+      },
+      {
+        "title":"Research on Security Portocol of Scheduled Services on Cloud Computing",
+        "year":"2015",
+        "auth":"LiYang,ChenXiang,LuXiao-ying,XingYa-lin,LiCheng-bin",
+        "journal":"ICITEL2015"
+      },
+      {
+        "title":"Towards Topology-and-Trust-Aware P2P Grid",
+        "year":"2010",
+        "auth":"Yingjie Xia,Mingzhe Zhu and Yang Li",
+        "journal":"JOURNAL OF COMPUTERS"
+      },
+      {
+        "title":"The Research of Feedback Network Service Architecture",
+        "year":"2010",
+        "auth":"Guo-hua Zhan, Yang Li",
+        "journal":"ICNDC2010"
       }
     ]
   }
