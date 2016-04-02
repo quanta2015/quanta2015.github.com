@@ -396,7 +396,7 @@
       },
       {
         "icon": "fa-github",
-        "name": "浙江迪安诊断公司IOS医药诊断平台系统",
+        "name": "迪安诊断IOS医药诊断平台系统",
         "year": "2015.09-2015.12",
         "library": [ {"item":"IOS"}, {"item":"XCODE"},{"item":"ORACLE"}],
         "description": [ 
@@ -419,6 +419,23 @@
         "description": [ 
           {"item":"远程大数据断点上传"},
           {"item":"数据切片分析诊断"}
+        ],
+        "links": [
+          {
+            "title": "Project Title",
+            "icon": "fa-globe",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "icon": "fa-github",
+        "name": "希森美康细胞形态学远程会诊系统",
+        "year": "2016.02-至今",
+        "library": [ {"item":"JAVASCRIPT"},{"item":"JQUERY"}, {"item":"LEAFLET"},{"item":"MYSQL"},{"item":"JSRENDER"},{"item":"SIGNATURE"},{"item":"BOOTSTRAP"}],
+        "description": [ 
+          {"item":"大数据分片上传"},
+          {"item":"镜检切片分析诊断"}
         ],
         "links": [
           {
