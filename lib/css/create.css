@@ -1,0 +1,74 @@
+#uploadFile {
+	opacity: 0;
+	width: 104px;
+	height: 34px;
+	float: right;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.form-img {
+    height: 100px;
+    background: #666;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.imgThumb {
+    height: 82px;
+    width: 82px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.imgThumb>img {
+	height: 80px;
+	width: 80px;
+}
+
+.fn-hide {
+	display: none;
+}
+
+.form-btn {
+	position: relative;
+}
+
+
+.pgm {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 999999990;
+	display: none;
+}
+
+.pgm>.pgm-layer {
+	width: 400px;
+   *height: 24px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform:translate(-50%,-50%);
+}
+
+.pgm>.pgm-layer>.pgm-bar {
+	width: 100%;
+}
+
+.pgm>.pgm-layer>.pgm-info{
+	position: absolute;
+	top:2px;
+	left: 190px;
+	font: 12px/1.5 "微软雅黑";
+	color: #666;
+}
+

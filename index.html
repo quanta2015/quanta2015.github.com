@@ -1,403 +1,99 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
+		<title>慢清尘</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width">
-
-		<link href="lib/bootstrap/bootstrap.min.css" rel="stylesheet">
-		<link href="lib/fonts/font-awesome.min.css" rel="stylesheet" >
-		<link href="lib/resume/resume.css" rel="stylesheet" >
-		
-		<script src="lib/jquery/jquery.js"></script>
-		<script src="lib/jquery/jquery-ui.js"></script>
-		<script src="lib/bootstrap/bootstrap.min.js"></script>
-		<script src="lib/jsrender/jsrender.js"></script>
-		<script src="lib/resume/resume.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link rel="stylesheet" href="lib/js/bootstrap.min.css" >
+		<link rel="stylesheet" href="lib/css/index.css" >
+		<script src="lib/js/jquery.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+		<script src="lib/js/jsrender.js"></script>
+		<script src="lib/js/index.js"></script>
 	</head>
-	<body data-spy="scroll" data-target=".nav-menu" data-offset="60" cz-shortcut-listen="true">
-		<html>
-		<head></head>
-		<body>
-			<div class="container">
-				<div class="resume-wrapper">
-					<div class="resume">
-						
-					</div>
+	<body>
+		<div class="container-fluid">
+			<div class="row header">
+				<div class="col-md-12">
+					<img src="img/logo.png"/>
 				</div>
-			</div>
-		</body>
-	</html>
-</body>
-</html>
-
-
-<script id="headTmpl" type="text/x-jsrender">
-	<section id="header">
-		<div class="cv-title">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="head-title">
-						<h1>{{:name}}</h1>
-						<h3>{{:title}}</h3>
-					</div>
-				</div>
-				<div class="col-md-8">
+				<div class="col-md-12">
 					<div class="nav-menu">
 						<ul class="nav nav-pills normal">
-							<li class="active"><a href="#header">首页</a></li>
-							<li><a href="#about">关于</a></li>
-							<li><a href="#education">教育经历</a></li>
-							<li><a href="#employment">工作经历</a></li>
-							<li><a href="#skill">技能</a></li>
-							<li><a href="#project">项目经历</a></li>
-							<li><a href="#paper">科研</a></li>
+							<li><a href="#" class="nav-menu-item" tag="3">关于</a></li>
+							<li><a href="#" class="nav-menu-item" tag="2">旅游</a></li>
+							<li><a href="#" class="nav-menu-item" tag="1">艺术</a></li>
+							<li><a href="#" class="nav-menu-item" tag="0">主页</a></li>
 						</ul>
-						<select class="nav nav-pills dropdown form-control"><option value="#header">首页</option><option value="#about">关于</option><option value="#education">教育经历</option><option value="#employment">工作经历</option><option value="#skill">技能</option><option value="#project">项目经历</option></select>
+						<select class="nav nav-pills dropdown form-control">
+							<option value="#" class="nav-menu-item" tag="0">主页</option>
+							<option value="#" class="nav-menu-item" tag="1">艺术</option>
+							<option value="#" class="nav-menu-item" tag="2">旅游</option>
+							<option value="#" class="nav-menu-item" tag="3">关于</option>
+						</select>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div id="container">
+			<div id="main">
+				<section class="post-expand post">
+					<header class="article-info clearfix">
+						<h1 itemprop="name">
+						<a href="#" class="jade-cp-link">{{title}}</a>
+						</h1>
+						<p class="article-author">By {{auth}}</p>
+						<p class="article-time">
+							<time> 发表于 {{pubtime}}  [{{timeFromNow pubtime}}]</time>
+						</p>
+					</header>
+					<div class="article-content">
+						<p>{{{body}}}</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
+<script id="tripTmpl" type="text/x-jsrender">
+	{{for trip}}
+	<section class="post-expand post">
+		<header class="article-info clearfix">
+			<h1 itemprop="name">
+				<div class="row">
+					<div class="col-md-4"><a href="#">{{:triptitle}}</a></div>
+					<div class="col-md-8 col-tripdate"><span>{{:tripdate}}</span></div>
+				</div>
+			</h1>
+		</header>
+		<div class="article-content">
+		{{for tripcontent}}
+				<div class="row">
+					<div class="col-md-3">{{:date}}<city>{{:city}}</city></div>
+					<div class="col-md-5"><schedule>{{:router}}</schedule></div>
+					<div class="col-md-4">{{:stay}}<hotel>{{:hotel}}</hotel><money>{{:money}}</money></div>
+				</div>
+			{{/for}}
 		</div>
 	</section>
+	{{/for}}
 </script>
-
-<script id="aboutTmpl" type="text/x-jsrender">
-	<section id="about">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="section-title">
-					<div class="section-icon">
-						<i class="fa fa-info"></i>
-					</div>
-					<div class="title">
-						<h4>关于</h4>
-					</div>
-				</div>
+<script id="articleTmpl" type="text/x-jsrender">
+	{{for articles}}
+		<section class="post-expand post">
+			<header class="article-info clearfix">
+				<h1 itemprop="name">
+				<a href="#" class="jade-cp-link">{{title}}</a>
+				</h1>
+				<p class="article-author">By {{auth}}</p>
+				<p class="article-time">
+					<time> 发表于 {{pubtime}}  [{{timeFromNow pubtime}}]</time>
+				</p>
+			</header>
+			<div class="article-content">
+				<p>{{{body}}}</p>
 			</div>
-			<div class="col-md-11">
-				<div class="box-wrapper">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="avatar">
-								<img src="{{:img}}" alt="avatar" />
-							</div>
-							<div class="social-icons">
-								<ul>
-									<li><a title="Blog" target="_blank" href="{{:socials.blog.url}}" class="fa fa-rss"></a></li>
-									<li><a title="Github" target="_blank" href="{{:socials.github.url}}" class="fa fa-github"></a></li>
-									<li><a title="Twitter" target="_blank" href="{{:socials.twitter.url}}" class="fa fa-twitter"></a></li>
-									<li><a title="Weibo" target="_blank" href="{{:socials.weibo.url}}" class="fa fa-weibo"></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-5 no-padding">
-							{{for introduction}}
-							<div class="desc">
-								{{:item}}
-							</div>
-							{{/for}}
-						</div>
-						<div class="col-md-4 center-on-mobile">
-							<ul class="round-rows">
-								<li>
-									<div class="round-row">
-										<i class="fa fa-map-marker"></i>
-										<span>{{:location}}</span>
-									</div></li>
-									<li>
-										<div class="round-row">
-											<i class="fa fa-check-circle"></i>
-											<span>{{:hire}}</span>
-										</div></li>
-										<li>
-											<div class="round-row">
-												<i class="fa fa-envelope"></i>
-												<a href="mailto:{{:email}}"><span>{{:email}}</span></a>
-											</div></li>
-											<li>
-												<div class="round-row">
-													<i class="fa fa-phone"></i>
-													<span>{{:phone}}</span>
-												</div></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</script>
-
-<script id="educationTmpl" type="text/x-jsrender">
-	<section id="education">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="section-title">
-					<div class="section-icon">
-						<i class="fa fa-book"></i>
-					</div>
-					<div class="title">
-						<h4>教育经历</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-11">
-				<div class="box-wrapper edu-box">
-					<div class="row">
-						{{for universities}}
-						<div class="col-md-6">
-							<div class="edu-wrapper">
-								<div class="head">
-									<div class="date-range">
-										{{:year}}
-									</div>
-									<h3>{{:name}}</h3>
-									<h4>{{:location}}</h4>
-								</div>
-								<div class="body">
-									<ul class="round-rows">
-										{{for items}}
-										<li class="round-row"><i class="{{:icon}}"></i><span>{{:text}}</span>
-										</li>
-										{{/for}}
-									</ul>
-								</div>
-							</div>
-						</div>
-						{{/for}}
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</script>
-
-<script id="employmentTmpl" type="text/x-jsrender">
-	<section id="employment">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="section-title">
-					<div class="section-icon">
-						<i class="fa fa-users"></i>
-					</div>
-					<div class="title">
-						<h4>工作经历</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-11">
-				<div class="box-wrapper emp-box">
-					<div class="row timeline-wrapper">
-						<div class="col-md-12">
-							{{for jobs}}
-							<div class="emp-item">
-								<div class="emp-wrapper">
-									<div class="head">
-										<div class="date-range">
-											{{:year}}
-										</div>
-										<h3>{{:name}}</h3>
-										<h4>{{:position}}</h4>
-									</div>
-									<div class="body">
-										{{for description}}
-										<span>{{:desc}}</span>
-										{{/for}}
-									</div>
-								</div>
-							</div>
-							{{/for}}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</script>
-
-<script id="skillTmpl" type="text/x-jsrender">
-	<section id="skill">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="section-title">
-					<div class="section-icon">
-						<i class="fa fa-wrench"></i>
-					</div>
-					<div class="title">
-						<h4>技能</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-11">
-				<div class="box-wrapper">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="pro-skills">
-								<div class="cat-title">
-									<i class="fa fa-keyboard-o"></i>
-									<span>{{:programming.text}}</span>
-								</div>
-								<div class="skill-body">
-									{{for programming.children}}
-									<div class="sub-body">
-										<div class="sub-cat-title">
-											<i class="fa fa-chevron-circle-right"></i>
-											<span>{{:text}}</span>
-										</div>
-										<ul>
-											{{for skills}}
-											<li><span>{{:name}}</span>
-											<div class="rating">
-												{{for rating}}
-												<i class="fa fa-star"></i>
-												{{/for}}
-											</div></li>
-											{{/for}}
-										</ul>
-									</div>
-									{{/for}}
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="lib-skills">
-								<div class="cat-title">
-									<i class="fa fa-puzzle-piece"></i>
-									<span>{{:library.text}}</span>
-								</div>
-								<div class="skill-body">
-									{{for library.children}}
-									<span class="label label-default">{{:item}}</span>
-									{{/for}}
-								</div>
-							</div>
-							<div class="tooling-skills">
-								<div class="cat-title">
-									<i class="fa fa-puzzle-piece"></i>
-									<span>{{:tooling.text}}</span>
-								</div>
-								<div class="skill-body">
-									{{for tooling.children}}
-									<span class="label label-default">{{:item}}</span>
-									{{/for}}
-								</div>
-							</div>
-							<div class="lang-skills">
-								<div class="cat-title">
-									<i class="fa fa-microphone"></i>
-									<span>{{:language.text}}</span>
-								</div>
-								<div class="skill-body">
-									<ul>
-										{{for language.children}}
-										<li><span>{{:name}}</span></li>
-										{{/for}}
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</script>
-
-<script id="projectTmpl" type="text/x-jsrender">
-	<section id="project">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="section-title">
-					<div class="section-icon">
-						<i class="fa fa-rocket"></i>
-					</div>
-					<div class="title">
-						<h4>项目经历</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-11">
-				<div class="box-wrapper">
-					<div class="row">
-						{{for history}}
-						<div class="col-md-6">
-							
-							<div class="pro-wrapper">
-								<div class="head">
-									<div class="row">
-										<div class="col-md-2">
-											<i class="fa fa-github"></i>
-										</div>
-										<div class="col-md-8">
-											<h3>{{:name}}</h3>
-										</div>
-										<div class="col-md-2">
-											<div class="date-range">
-												{{:year}}
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="body">
-									<div class="pro-labels">
-										{{for library}}
-										<span class="label label-primary">{{:item}}</span>
-										{{/for}}
-									</div>
-									<ul>
-										{{for description}}
-										<li>{{:item}}</li>
-										{{/for}}
-									</ul>
-									<div class="pro-icons">
-										<ul>
-											<li><a title="{{:links.title}}" href="{{:links.url}}" target="_blank"><i class="fa fa-globe"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						{{/for}}
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
-</script>
-
-
-<script id="paperTmpl" type="text/x-jsrender">
-	<section id="paper">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="section-title">
-					<div class="section-icon">
-						<i class="fa fa-rocket"></i>
-					</div>
-					<div class="title">
-						<h4>科研成果</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-11">
-				<div class="box-wrapper">
-					<div class="row">
-						{{for items}}
-						<div class="col-md-12">
-							<div class="pro-wrapper">
-								<div class="cat-title">
-									<span>{{:auth}},{{:title}},{{:journal}},{{:year}}</span>
-								</div>
-							</div>
-						</div>
-						{{/for}}
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
+		</section>
+	{{/for}}
 </script>
