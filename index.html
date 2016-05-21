@@ -79,6 +79,23 @@
 	</section>
 	{{/for}}
 </script>
+
+<script id="artTmpl" type="text/x-jsrender">
+	<section>
+		<div class="row">
+			{{for artList}}
+			<div class="col-md-6 col-art">
+				<div class="art-type post">
+					<img src="img/{{:thumb}}" height="100%"/>
+					<span>{{:type}}</span>
+				</div>
+			</div>
+			{{/for}}
+		</div>
+	</section>
+</script>
+
+
 <script id="articleTmpl" type="text/x-jsrender">
 	{{for articles}}
 		<section class="post-expand post">

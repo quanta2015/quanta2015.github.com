@@ -1,0 +1,21 @@
+{
+	"artList": [{
+		"type": "风景",
+		"thumb": "art-menu-sight.png"
+	}, {
+		"type": "木工",
+		"thumb": "art-menu-wood.png"
+	}, {
+		"type": "皮具",
+		"thumb": "art-menu-skin.png"
+	}, {
+		"type": "人物",
+		"thumb": "art-menu-people.png"
+	}, {
+		"type": "生活",
+		"thumb": "art-menu-life.png"
+	}, {
+		"type": "绘画",
+		"thumb": "art-menu-draw.png"
+	}]
+}

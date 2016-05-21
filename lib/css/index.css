@@ -189,3 +189,20 @@ section .article-content p {
     font-weight: 600;
 
 }
+
+.col-art {
+    cursor: pointer;
+}
+
+.art-type {
+    height: 80px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.art-type span {
+    position: absolute;
+    font: 24px/1 "Microsoft YaHei";
+    top: 26px;
+    right: 30px;
+}
