@@ -1,94 +1,78 @@
 {
-"recordList":[
-{
-"id":1,
-"picname":"兄妹",
-"pictype":"v",
-"picurl":"person/person001.jpg"
-},
-{
-"id":2,
-"picname":"回眸",
-"pictype":"h",
-"picurl":"person/person002.jpg"
-},
-{
-"id":3,
-"picname":"童稚",
-"pictype":"v",
-"picurl":"person/person003.jpg"
-},
-{
-"id":4,
-"picname":"微笑",
-"pictype":"v",
-"picurl":"person/person004.jpg"
-},
-{
-"id":5,
-"picname":"耍酷",
-"pictype":"v",
-"picurl":"person/person005.jpg"
-},
-{
-"id":6,
-"picname":"月饼",
-"pictype":"v",
-"picurl":"person/person006.jpg"
-},
-{
-"id":7,
-"picname":"父亲",
-"pictype":"v",
-"picurl":"person/person007.jpg"
-},
-{
-"id":8,
-"picname":"奸笑",
-"pictype":"v",
-"picurl":"person/person008.jpg"
-},
-{
-"id":9,
-"picname":"俞蔡",
-"pictype":"v",
-"picurl":"person/person009.jpg"
-},
-{
-"id":10,
-"picname":"师徒",
-"pictype":"v",
-"picurl":"person/person010.jpg"
-},
-{
-"id":11,
-"picname":"婚纱",
-"pictype":"v",
-"picurl":"person/person011.jpg"
-},
-{
-"id":12,
-"picname":"林峰",
-"pictype":"v",
-"picurl":"person/person012.jpg"
-},
-{
-"id":13,
-"picname":"母亲",
-"pictype":"v",
-"picurl":"person/person013.jpg"
-},
-{
-"id":14,
-"picname":"幼年",
-"pictype":"v",
-"picurl":"person/person014.jpg"
-},
-{
-"id":15,
-"picname":"舅舅",
-"pictype":"v",
-"picurl":"person/person015.jpg"
-}
-]
+	"recordList": [{
+		"id": 1,
+		"picname": "兄妹",
+		"pictype": "v",
+		"picurl": "person/person001.jpg"
+	}, {
+		"id": 2,
+		"picname": "回眸",
+		"pictype": "h",
+		"picurl": "person/person002.jpg"
+	}, {
+		"id": 3,
+		"picname": "童稚",
+		"pictype": "v",
+		"picurl": "person/person003.jpg"
+	}, {
+		"id": 4,
+		"picname": "微笑",
+		"pictype": "v",
+		"picurl": "person/person004.jpg"
+	}, {
+		"id": 5,
+		"picname": "耍酷",
+		"pictype": "v",
+		"picurl": "person/person005.jpg"
+	}, {
+		"id": 6,
+		"picname": "月饼",
+		"pictype": "v",
+		"picurl": "person/person006.jpg"
+	}, {
+		"id": 7,
+		"picname": "父亲",
+		"pictype": "v",
+		"picurl": "person/person007.jpg"
+	}, {
+		"id": 8,
+		"picname": "奸笑",
+		"pictype": "v",
+		"picurl": "person/person008.jpg"
+	}, {
+		"id": 9,
+		"picname": "俞蔡",
+		"pictype": "v",
+		"picurl": "person/person009.jpg"
+	}, {
+		"id": 10,
+		"picname": "师徒",
+		"pictype": "v",
+		"picurl": "person/person010.jpg"
+	}, {
+		"id": 11,
+		"picname": "婚纱",
+		"pictype": "v",
+		"picurl": "person/person011.jpg"
+	}, {
+		"id": 12,
+		"picname": "林峰",
+		"pictype": "v",
+		"picurl": "person/person012.jpg"
+	}, {
+		"id": 13,
+		"picname": "母亲",
+		"pictype": "v",
+		"picurl": "person/person013.jpg"
+	}, {
+		"id": 14,
+		"picname": "幼年",
+		"pictype": "v",
+		"picurl": "person/person014.jpg"
+	}, {
+		"id": 15,
+		"picname": "舅舅",
+		"pictype": "v",
+		"picurl": "person/person015.jpg"
+	}]
 }

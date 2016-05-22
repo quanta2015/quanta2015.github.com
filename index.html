@@ -117,20 +117,20 @@
 </script>
 
 
-<script id="articleTmpl" type="text/x-jsrender">
-	{{for articles}}
+<script id="newsTmpl" type="text/x-jsrender">
+	{{for newsList}}
 		<section class="post-expand post">
 			<header class="article-info clearfix">
 				<h1 itemprop="name">
-				<a href="#" class="jade-cp-link">{{title}}</a>
+				<a href="#" class="jade-cp-link">{{:title}}</a>
 				</h1>
-				<p class="article-author">By {{auth}}</p>
+				<p class="article-author">By {{:auth}}</p>
 				<p class="article-time">
-					<time> 发表于 {{pubtime}}  [{{timeFromNow pubtime}}]</time>
+					<time> 发表于 {{:pubtime}} </time>
 				</p>
 			</header>
 			<div class="article-content">
-				<p>{{{body}}}</p>
+				<p>{{:body}}</p>
 			</div>
 		</section>
 	{{/for}}
