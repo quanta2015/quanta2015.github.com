@@ -187,7 +187,6 @@ section .article-content p {
 .col-tripdate {
     text-align: right;
     font-weight: 600;
-
 }
 
 .col-art {
@@ -205,4 +204,43 @@ section .article-content p {
     font: 24px/1 "Microsoft YaHei";
     top: 26px;
     right: 30px;
+}
+
+.img-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin: 0 5px 0 5px;
+}
+
+.img-item p {
+    margin: 0 0 0px;
+    text-align: center;
+}
+
+
+
+#main .row {
+    margin: 0;
+}
+
+.col-img {
+    margin-bottom: 10px;
+    padding: 0;
+    
+    height: 0;
+    overflow: hidden;
+}
+
+@media all and (min-width:900px) {
+  .col-img {
+    padding-bottom: 34%;
+  }
+
+}
+
+@media all and (max-width:900px) {
+  .col-img {
+    padding-bottom: 50%;
+  }
+
 }

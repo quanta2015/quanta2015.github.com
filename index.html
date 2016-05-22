@@ -5,12 +5,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-		<link rel="stylesheet" href="lib/js/bootstrap.min.css" >
-		<link rel="stylesheet" href="lib/css/index.css" >
+		<link href="lib/js/bootstrap.min.css" rel="stylesheet" >
+		<link href="lib/js/jquery.fancybox.css" rel="stylesheet">
+		<link href="lib/css/index.css" rel="stylesheet">
 		<script src="lib/js/jquery.js"></script>
 		<script src="lib/js/bootstrap.min.js"></script>
 		<script src="lib/js/jsrender.js"></script>
+		<script src="lib/js/jquery.fancybox.js"></script>
 		<script src="lib/js/index.js"></script>
+
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -90,6 +93,24 @@
 					<span>{{:type}}</span>
 				</div>
 			</div>
+			{{/for}}
+		</div>
+	</section>
+</script>
+
+<script id="imgTmpl" type="text/x-jsrender">
+	<section>
+		<div class="row">
+			{{for recordList}}
+			<div class="col-md-3 col-xs-4 col-img">
+				<div class="img-item post" href="pic/{{:picurl}}">
+					<p>{{:picname}}</p>
+					<img src="pic/{{:picurl}}" width="100%"/>
+				</div>
+			</div>
+			{{if (#getIndex()+1)%3 == 0}}
+    			 <div class="clearfix visible-xs-block"></div>
+	   		{{/if}}
 			{{/for}}
 		</div>
 	</section>

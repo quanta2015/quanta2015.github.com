@@ -1,0 +1,106 @@
+{
+"recordList":[
+{
+"id":1,
+"picname":"皮带料对比",
+"pictype":"v",
+"picurl": "skin/skin001.jpg"
+},
+{
+"id":2,
+"picname":"皮带",
+"pictype":"v",
+"picurl": "skin/skin002.jpg"
+},
+{
+"id":3,
+"picname":"钱包",
+"pictype":"v",
+"picurl": "skin/skin003.jpg"
+},
+{
+"id":4,
+"picname":"皮包",
+"pictype":"v",
+"picurl": "skin/skin004.jpg"
+},
+{
+"id":5,
+"picname":"皮包细节",
+"pictype":"v",
+"picurl": "skin/skin005.jpg"
+},
+{
+"id":6,
+"picname":"皮包背带",
+"pictype":"v",
+"picurl": "skin/skin006.jpg"
+},
+{
+"id":7,
+"picname":"钢笔套",
+"pictype":"v",
+"picurl": "skin/skin007.jpg"
+},
+{
+"id":8,
+"picname":"钢笔套细节",
+"pictype":"v",
+"picurl": "skin/skin008.jpg"
+},
+{
+"id":9,
+"picname":"钱包制作图",
+"pictype":"v",
+"picurl": "skin/skin009.jpg"
+},
+{
+"id":10,
+"picname":"仿TUMi鹿皮包",
+"pictype":"v",
+"picurl": "skin/skin010.jpg"
+},
+{
+"id":11,
+"picname":"彩铅收纳袋",
+"pictype":"v",
+"picurl": "skin/skin011.jpg"
+},
+{
+"id":12,
+"picname":"收纳袋细节",
+"pictype":"v",
+"picurl": "skin/skin012.jpg"
+},
+{
+"id":13,
+"picname":"鹿皮零钱包",
+"pictype":"v",
+"picurl": "skin/skin013.jpg"
+},
+{
+"id":14,
+"picname":"钱包制作图",
+"pictype":"v",
+"picurl": "skin/skin014.jpg"
+},
+{
+"id":15,
+"picname":"收纳袋定稿",
+"pictype":"v",
+"picurl": "skin/skin015.jpg"
+},
+{
+"id":16,
+"picname":"定稿细节",
+"pictype":"v",
+"picurl": "skin/skin016.jpg"
+},
+{
+"id":17,
+"picname":"收纳袋缝制",
+"pictype":"v",
+"picurl": "skin/skin017.jpg"
+}
+]
+}
