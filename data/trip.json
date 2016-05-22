@@ -2,106 +2,106 @@
 	"trip": [
 		{
 			"triptitle": "东北自助游",
-			"tripdate": "[ 2016.08.05 - 2016.08.19 ]",
+			"tripdate": "[ 2016.xx.xx - 2016.xx.xx ]",
 			"tripcontent": [{
-				"date": "DAY 01 [8.05] ",
+				"date": "DAY 01 [xx.xx] ",
 				"city": "名古屋",
 				"router": " [上海10:40 → 14:00中部机场15:37 → 16:05名鉄名古屋]",
 				"stay": "住松本",
 				"hotel": "[旅館松風]",
 				"money": "¥4000"
 			}, {
-				"date": "DAY 02 [8.06] ",
+				"date": "DAY 02 [xx.xx] ",
 				"city": "松本 ",
 				"router": "[松本06:51 → 08:13安雲野 1時22分] ",
 				"stay": "住松本",
 				"hotel": "[ビジネスインあづみ野] ",
 				"money": "¥9080"
 			}, {
-				"date": "DAY 03 [8.07] ",
+				"date": "DAY 03 [xx.xx] ",
 				"city": "清里 ",
 				"router": "[松本06:51 → 08:13清里 1時22分] ",
 				"stay": "住松本",
 				"hotel": "[旅館松風]",
 				"money": "¥4000"
 			}, {
-				"date": "DAY 04 [8.08] ",
+				"date": "DAY 04 [xx.xx] ",
 				"city": "軽井沢 ",
 				"router": "[松本06:18 → 08:13軽井沢 1時間55分]",
 				"stay": "住軽井沢",
 				"hotel": "[アクアホテル佐久平] ",
 				"money": "¥8000"
 			}, {
-				"date": "DAY 05 [8.09] ",
+				"date": "DAY 05 [xx.xx] ",
 				"city": "仙台 ",
 				"router": "[軽井沢16:46発 → 18:52仙台 2時間6分]",
 				"stay": "住仙台 ",
 				"hotel": "[ロイヤルメイフラワー仙台]",
 				"money": "¥6300"
 			}, {
-				"date": "DAY 06 [8.10] ",
+				"date": "DAY 06 [xx.xx] ",
 				"city": "苫小牧 ",
 				"router": "[仙台06:40 → 12:59苫小牧 6時間19分]",
 				"stay": "住勇払 ",
 				"hotel": "[ビジネスホテルはちのへ] ",
 				"money": "¥9280 夕"
 			}, {
-				"date": "DAY 07 [8.11] ",
+				"date": "DAY 07 [xx.xx] ",
 				"city": "美瑛 ",
 				"router": "[勇払06:43 → 11:11美瑛 4時間28分]",
 				"stay": "住富良野 ",
 				"hotel": "[民宿あきば] ",
 				"money": "¥8200"
 			}, {
-				"date": "DAY 08 [8.12] ",
+				"date": "DAY 08 [xx.xx] ",
 				"city": "富良野 ",
 				"router": "[富良野16:46 → 21:59釧路 5時間13分]",
 				"stay": "住釧路 ",
 				"hotel": "[東横イン釧路十字街] ",
 				"money": "¥7344 朝"
 			}, {
-				"date": "DAY 09 [8.13] ",
+				"date": "DAY 09 [xx.xx] ",
 				"city": "釧路 ",
 				"router": "",
 				"stay": "住釧路 ",
 				"hotel": "[東横イン釧路十字街] ",
 				"money": "¥7344 朝"
 			}, {
-				"date": "DAY 10 [8.14] ",
+				"date": "DAY 10 [xx.xx] ",
 				"city": "釧路 ",
 				"router": "[16:14釧路 → 21:14小樽 5時間0分]",
 				"stay": "住小樽 ",
 				"hotel": "[旅の散歩宿小樽駅前ゲストハウス] ",
 				"money": "¥6600"
 			}, {
-				"date": "DAY 11 [8.15] ",
+				"date": "DAY 11 [xx.xx] ",
 				"city": "小樽 ",
 				"stay": "住小樽",
 				"hotel": " [旅の散歩宿小樽駅前ゲストハウス] ",
 				"money": "¥7000"
 			}, {
-				"date": "DAY 12 [8.16] ",
+				"date": "DAY 12 [xx.xx] ",
 				"city": "小樽 ",
 				"router": "[小樽06:21 → 18:54金沢 12時間33分]",
 				"stay": "住金沢 ",
 				"hotel": "[ホテルエコノ金沢駅前]",
 				"money": "¥7000 朝"
 			}, {
-				"date": "DAY 13 [8.17] ",
+				"date": "DAY 13 [xx.xx] ",
 				"city": "金沢 ",
 				"router": "",
 				"stay": "住金沢",
 				"hotel": " [ホテルエコノ金沢駅前] ",
 				"money": "¥7000 朝"
 			}, {
-				"date": "DAY 14 [8.18] ",
+				"date": "DAY 14 [xx.xx] ",
 				"city": "金沢",
 				"router": "[金沢16:48 → 20:36中部国際空港 3時間48分]",
 				"stay": "",
 				"hotel": "",
 				"money": ""
 			}, {
-				"date": "DAY 15 [8.19] ",
+				"date": "DAY 15 [xx.xx] ",
 				"city": "上海"
 			}]
 		}, 
