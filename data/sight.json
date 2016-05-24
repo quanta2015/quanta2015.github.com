@@ -1,238 +1,286 @@
 {
-	"recordList": [{
-		"id": 38,
-		"picname": "大阪天守阁",
-		"pictype": "v",
-		"picurl": "sight/sight038.jpg"
-	}, {
-		"id": 39,
-		"picname": "舍利白塔",
-		"pictype": "v",
-		"picurl": "sight/sight039.jpg"
-	}, {
-		"id": 40,
-		"picname": "东京上野公园",
-		"pictype": "v",
-		"picurl": "sight/sight040.jpg"
-	}, {
-		"id": 41,
-		"picname": "黄山白鹅岭站",
-		"pictype": "v",
-		"picurl": "sight/sight041.jpg"
-	}, {
-		"id": 42,
-		"picname": "广西",
-		"pictype": "h",
-		"picurl": "sight/sight042.jpg"
-	}, {
-		"id": 43,
-		"picname": "广西",
-		"pictype": "h",
-		"picurl": "sight/sight043.jpg"
-	}, {
-		"id": 44,
-		"picname": "广西龙脊",
-		"pictype": "h",
-		"picurl": "sight/sight044.jpg"
-	}, {
-		"id": 45,
-		"picname": "丽水箬寮",
-		"pictype": "h",
-		"picurl": "sight/sight045.jpg"
-	}, {
-		"id": 46,
-		"picname": "九州龙之峡",
-		"pictype": "v",
-		"picurl": "sight/sight046.jpg"
-	}, {
-		"id": 000,
-		"picname": "天空之道",
-		"pictype": "v",
-		"picurl": "sight/sight000.jpg"
-	}, {
-		"id": 001,
-		"picname": "九州南阿苏",
-		"pictype": "v",
-		"picurl": "sight/sight001.jpg"
-	}, {
-		"id": 002,
-		"picname": "九州由布院",
-		"pictype": "v",
-		"picurl": "sight/sight002.jpg"
-	}, {
-		"id": 003,
-		"picname": "富士山河口湖",
-		"pictype": "v",
-		"picurl": "sight/sight003.jpg"
-	}, {
-		"id": 004,
-		"picname": "德岛鸣门大桥",
-		"pictype": "v",
-		"picurl": "sight/sight004.jpg"
-	}, {
-		"id": 005,
-		"picname": "德岛鸣门大桥",
-		"pictype": "v",
-		"picurl": "sight/sight005.jpg"
-	}, {
-		"id": 006,
-		"picname": "锦带桥",
-		"pictype": "v",
-		"picurl": "sight/sight006.jpg"
-	}, {
-		"id": 007,
-		"picname": "姬路城",
-		"pictype": "v",
-		"picurl": "sight/sight007.jpg"
-	}, {
-		"id": 008,
-		"picname": "姬路城",
-		"pictype": "v",
-		"picurl": "sight/sight008.jpg"
-	}, {
-		"id": 009,
-		"picname": "姬路城",
-		"pictype": "v",
-		"picurl": "sight/sight009.jpg"
-	}, {
-		"id": 010,
-		"picname": "函馆",
-		"pictype": "v",
-		"picurl": "sight/sight010.jpg"
-	}, {
-		"id": 011,
-		"picname": "高松栗林公园",
-		"pictype": "v",
-		"picurl": "sight/sight011.jpg"
-	}, {
-		"id": 012,
-		"picname": "高松栗林公园",
-		"pictype": "v",
-		"picurl": "sight/sight012.jpg"
-	}, {
-		"id": 013,
-		"picname": "高松栗林公园",
-		"pictype": "v",
-		"picurl": "sight/sight013.jpg"
-	}, {
-		"id": 014,
-		"picname": "宫岛",
-		"pictype": "v",
-		"picurl": "sight/sight014.jpg"
-	}, {
-		"id": 015,
-		"picname": "德岛祖谷",
-		"pictype": "v",
-		"picurl": "sight/sight015.jpg"
-	}, {
-		"id": 016,
-		"picname": "德岛祖谷",
-		"pictype": "v",
-		"picurl": "sight/sight016.jpg"
-	}, {
-		"id": 017,
-		"picname": "德岛祖谷",
-		"pictype": "v",
-		"picurl": "sight/sight017.jpg"
-	}, {
-		"id": 018,
-		"picname": "阿苏由布院",
-		"pictype": "v",
-		"picurl": "sight/sight018.jpg"
-	}, {
-		"id": 019,
-		"picname": "阿苏由布院",
-		"pictype": "v",
-		"picurl": "sight/sight019.jpg"
-	}, {
-		"id": 020,
-		"picname": "阿苏由布院",
-		"pictype": "v",
-		"picurl": "sight/sight020.jpg"
-	}, {
-		"id": 021,
-		"picname": "四国小豆岛",
-		"pictype": "v",
-		"picurl": "sight/sight021.jpg"
-	}, {
-		"id": 022,
-		"picname": "四国小豆岛",
-		"pictype": "v",
-		"picurl": "sight/sight022.jpg"
-	}, {
-		"id": 023,
-		"picname": "松山大桥",
-		"pictype": "v",
-		"picurl": "sight/sight023.jpg"
-	}, {
-		"id": 024,
-		"picname": "松山大桥",
-		"pictype": "v",
-		"picurl": "sight/sight024.jpg"
-	}, {
-		"id": 025,
-		"picname": "松山大桥",
-		"pictype": "v",
-		"picurl": "sight/sight025.jpg"
-	}, {
-		"id": 026,
-		"picname": "九州山灵芝",
-		"pictype": "v",
-		"picurl": "sight/sight026.jpg"
-	}, {
-		"id": 027,
-		"picname": "九州山灵芝",
-		"pictype": "v",
-		"picurl": "sight/sight027.jpg"
-	}, {
-		"id": 028,
-		"picname": "九州山灵芝",
-		"pictype": "v",
-		"picurl": "sight/sight028.jpg"
-	}, {
-		"id": 029,
-		"picname": "高松琴平",
-		"pictype": "v",
-		"picurl": "sight/sight029.jpg"
-	}, {
-		"id": 030,
-		"picname": "高松琴平",
-		"pictype": "v",
-		"picurl": "sight/sight030.jpg"
-	}, {
-		"id": 031,
-		"picname": "高松琴平",
-		"pictype": "v",
-		"picurl": "sight/sight031.jpg"
-	}, {
-		"id": 032,
-		"picname": "高松琴平",
-		"pictype": "v",
-		"picurl": "sight/sight032.jpg"
-	}, {
-		"id": 033,
-		"picname": "高松琴平",
-		"pictype": "v",
-		"picurl": "sight/sight033.jpg"
-	}, {
-		"id": 034,
-		"picname": "高松琴平",
-		"pictype": "v",
-		"picurl": "sight/sight034.jpg"
-	}, {
-		"id": 035,
-		"picname": "南阿苏铁路",
-		"pictype": "v",
-		"picurl": "sight/sight035.jpg"
-	}, {
-		"id": 036,
-		"picname": "富士山",
-		"pictype": "v",
-		"picurl": "sight/sight036.jpg"
-	}, {
-		"id": 037,
-		"picname": "富士山",
-		"pictype": "v",
-		"picurl": "sight/sight037.jpg"
-	}]
+    "recordList": [
+        {
+            "id": 38,
+            "picname": "大阪天守阁",
+            "pictype": "v",
+            "picurl": "sight/sight038.jpg"
+        },
+        {
+            "id": 39,
+            "picname": "舍利白塔",
+            "pictype": "v",
+            "picurl": "sight/sight039.jpg"
+        },
+        {
+            "id": 40,
+            "picname": "东京上野公园",
+            "pictype": "v",
+            "picurl": "sight/sight040.jpg"
+        },
+        {
+            "id": 41,
+            "picname": "黄山白鹅岭站",
+            "pictype": "v",
+            "picurl": "sight/sight041.jpg"
+        },
+        {
+            "id": 42,
+            "picname": "广西",
+            "pictype": "h",
+            "picurl": "sight/sight042.jpg"
+        },
+        {
+            "id": 43,
+            "picname": "广西",
+            "pictype": "h",
+            "picurl": "sight/sight043.jpg"
+        },
+        {
+            "id": 44,
+            "picname": "广西龙脊",
+            "pictype": "h",
+            "picurl": "sight/sight044.jpg"
+        },
+        {
+            "id": 45,
+            "picname": "丽水箬寮",
+            "pictype": "h",
+            "picurl": "sight/sight045.jpg"
+        },
+        {
+            "id": 46,
+            "picname": "九州龙之峡",
+            "pictype": "v",
+            "picurl": "sight/sight046.jpg"
+        },
+        {
+            "id": 0,
+            "picname": "天空之道",
+            "pictype": "v",
+            "picurl": "sight/sight000.jpg"
+        },
+        {
+            "id": 1,
+            "picname": "九州南阿苏",
+            "pictype": "v",
+            "picurl": "sight/sight001.jpg"
+        },
+        {
+            "id": 2,
+            "picname": "九州由布院",
+            "pictype": "v",
+            "picurl": "sight/sight002.jpg"
+        },
+        {
+            "id": 3,
+            "picname": "富士山河口湖",
+            "pictype": "v",
+            "picurl": "sight/sight003.jpg"
+        },
+        {
+            "id": 4,
+            "picname": "德岛鸣门大桥",
+            "pictype": "v",
+            "picurl": "sight/sight004.jpg"
+        },
+        {
+            "id": 5,
+            "picname": "德岛鸣门大桥",
+            "pictype": "v",
+            "picurl": "sight/sight005.jpg"
+        },
+        {
+            "id": 6,
+            "picname": "锦带桥",
+            "pictype": "v",
+            "picurl": "sight/sight006.jpg"
+        },
+        {
+            "id": 7,
+            "picname": "姬路城",
+            "pictype": "v",
+            "picurl": "sight/sight007.jpg"
+        },
+        {
+            "id": 8,
+            "picname": "姬路城",
+            "pictype": "v",
+            "picurl": "sight/sight008.jpg"
+        },
+        {
+            "id": 9,
+            "picname": "姬路城",
+            "pictype": "v",
+            "picurl": "sight/sight009.jpg"
+        },
+        {
+            "id": 10,
+            "picname": "函馆",
+            "pictype": "v",
+            "picurl": "sight/sight010.jpg"
+        },
+        {
+            "id": 11,
+            "picname": "高松栗林公园",
+            "pictype": "v",
+            "picurl": "sight/sight011.jpg"
+        },
+        {
+            "id": 12,
+            "picname": "高松栗林公园",
+            "pictype": "v",
+            "picurl": "sight/sight012.jpg"
+        },
+        {
+            "id": 13,
+            "picname": "高松栗林公园",
+            "pictype": "v",
+            "picurl": "sight/sight013.jpg"
+        },
+        {
+            "id": 14,
+            "picname": "宫岛",
+            "pictype": "v",
+            "picurl": "sight/sight014.jpg"
+        },
+        {
+            "id": 15,
+            "picname": "德岛祖谷",
+            "pictype": "v",
+            "picurl": "sight/sight015.jpg"
+        },
+        {
+            "id": 16,
+            "picname": "德岛祖谷",
+            "pictype": "v",
+            "picurl": "sight/sight016.jpg"
+        },
+        {
+            "id": 17,
+            "picname": "德岛祖谷",
+            "pictype": "v",
+            "picurl": "sight/sight017.jpg"
+        },
+        {
+            "id": 18,
+            "picname": "阿苏由布院",
+            "pictype": "v",
+            "picurl": "sight/sight018.jpg"
+        },
+        {
+            "id": 19,
+            "picname": "阿苏由布院",
+            "pictype": "v",
+            "picurl": "sight/sight019.jpg"
+        },
+        {
+            "id": 20,
+            "picname": "阿苏由布院",
+            "pictype": "v",
+            "picurl": "sight/sight020.jpg"
+        },
+        {
+            "id": 21,
+            "picname": "四国小豆岛",
+            "pictype": "v",
+            "picurl": "sight/sight021.jpg"
+        },
+        {
+            "id": 22,
+            "picname": "四国小豆岛",
+            "pictype": "v",
+            "picurl": "sight/sight022.jpg"
+        },
+        {
+            "id": 23,
+            "picname": "松山大桥",
+            "pictype": "v",
+            "picurl": "sight/sight023.jpg"
+        },
+        {
+            "id": 24,
+            "picname": "松山大桥",
+            "pictype": "v",
+            "picurl": "sight/sight024.jpg"
+        },
+        {
+            "id": 25,
+            "picname": "松山大桥",
+            "pictype": "v",
+            "picurl": "sight/sight025.jpg"
+        },
+        {
+            "id": 26,
+            "picname": "九州山灵芝",
+            "pictype": "v",
+            "picurl": "sight/sight026.jpg"
+        },
+        {
+            "id": 27,
+            "picname": "九州山灵芝",
+            "pictype": "v",
+            "picurl": "sight/sight027.jpg"
+        },
+        {
+            "id": 28,
+            "picname": "九州山灵芝",
+            "pictype": "v",
+            "picurl": "sight/sight028.jpg"
+        },
+        {
+            "id": 29,
+            "picname": "高松琴平",
+            "pictype": "v",
+            "picurl": "sight/sight029.jpg"
+        },
+        {
+            "id": 30,
+            "picname": "高松琴平",
+            "pictype": "v",
+            "picurl": "sight/sight030.jpg"
+        },
+        {
+            "id": 31,
+            "picname": "高松琴平",
+            "pictype": "v",
+            "picurl": "sight/sight031.jpg"
+        },
+        {
+            "id": 32,
+            "picname": "高松琴平",
+            "pictype": "v",
+            "picurl": "sight/sight032.jpg"
+        },
+        {
+            "id": 33,
+            "picname": "高松琴平",
+            "pictype": "v",
+            "picurl": "sight/sight033.jpg"
+        },
+        {
+            "id": 34,
+            "picname": "高松琴平",
+            "pictype": "v",
+            "picurl": "sight/sight034.jpg"
+        },
+        {
+            "id": 35,
+            "picname": "南阿苏铁路",
+            "pictype": "v",
+            "picurl": "sight/sight035.jpg"
+        },
+        {
+            "id": 36,
+            "picname": "富士山",
+            "pictype": "v",
+            "picurl": "sight/sight036.jpg"
+        },
+        {
+            "id": 37,
+            "picname": "富士山",
+            "pictype": "v",
+            "picurl": "sight/sight037.jpg"
+        }
+    ]
 }
