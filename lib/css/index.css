@@ -244,3 +244,54 @@ section .article-content p {
   }
 
 }
+
+
+.about-content  .col-md-2 a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #008000;
+}
+
+.about-content  .col-md-10 span{
+    font-size: 14px;
+    color: #666;
+}
+
+section .about-content {
+    padding: 0.6em 4%;
+    font-size: 170%;
+}
+
+section header.about-info {
+    /*border-bottom: 1px dashed #dbdbdb;*/
+    padding: 0.2em 3%;
+    border-left: 5px solid #2d2d2d;
+    background: #333;
+}
+
+section header.about-info h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-content .row {
+    font: 14px/1.2 "Microsoft Yahei";
+    padding: 10px 5px;
+}
+
+
+.about-content span.title {
+    font-weight: 600;
+    color:#008000;
+}
+
+.about-content span.lang {
+    font-weight: 600;
+    color:#FF6600;
+}
+
+.about-content span.cont {
+    font-weight: 600;
+    color:#333;
+}

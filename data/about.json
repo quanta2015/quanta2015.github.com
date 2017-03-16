@@ -1,0 +1,265 @@
+{
+
+    "basicinfo": {
+        "name": "Li Yang",
+        "Gender": "male",
+        "Academic": "Doctor",
+        "Birthplace": "Hangzhou of China",
+        "Phone": "135158xxxx6",
+        "Email": "liyangtom@163.com",
+        "WebSite": "https://github.com/quanta2015",
+        "Research": "network security, web service, data mining",
+        "Expertise": "C program, IOS development, WEB development, Oracle, Mysql, photography",
+        "introduction": "After graduated from the Zhejiang University computer system structure, I take my research in Hangzhou Normal University. The main research area are web services, mobile architecture, network security and data mining. I have taken over the national 863 project and several research projects. I have published more than 20 academic papers in journals and conferences. Over the years, i cooperate with the  several companies with research projects, such as HUAWEI, Zhejiang mobile, Zhejiang industrial and Commercial Bank of Zhejiang Province, Hangzhou military region, Dian diagnosis and Sysmex Company of Shanghai."
+    },
+
+    "Education": [{
+        "period": "1996.09-2000.04",
+        "university": "Zhejiang University",
+        "major": "Computer software/Undergraduate"
+    }, {
+        "period": "2001.09-2002.04",
+        "university": "Zhejiang University",
+        "major": "Computer application/Master"
+    }, {
+        "period": "2002.09-2005.04",
+        "university": "Zhejiang University",
+        "major": "Computer system architecture/Doctor"
+    }],
+
+    "Expertise": [{
+        "type": "Language",
+        "content": "C/C++, Object C, Pascal, Java, HTML5, CSS3, Javascript, Markdown"
+    }, {
+        "type": "Database",
+        "content": "Mysql, Oracle, SqlServer, Access"
+    }, {
+        "type": "AppServer",
+        "content": "Tomcat, Nodejs"
+    }, {
+        "type": "AppServer",
+        "content": "Windows, Ubuntu, OSX"
+    }],
+
+    "Project": [{
+        "period": "2002.04-2005.06",
+        "title": "Research on Key Technologies of workflow key technology based on component library",
+        "type": "National 863 project",
+        "lang": " C++"
+    }, {
+        "period": "2004.05-2004.11",
+        "title": "SSH encryption project",
+        "type": "HUAWEI 3COM Company",
+        "lang": " C Language"
+    }, {
+        "period": "2005.12-2007.12",
+        "title": " Research on dynamic model of grid services",
+        "type": " Hangzhou Normal University",
+        "lang": " Java"
+    }, {
+        "period": "2005.05-2006.05",
+        "title": " Research on quantum industry of Hangzhou",
+        "type": " Hangzhou bureau",
+        "lang": " "
+    }, {
+        "period": "2007.05-2008.06",
+        "title": " Research on the security algorithm of service composition optimization based on network middleware",
+        "type": "Zhejiang Provincial Department of education",
+        "lang": " Java"
+    }, {
+        "period": "2005.12-2006.03",
+        "title": " calling and queuing system",
+        "type": " Zhejiang Mobile Corporation",
+        "lang": " Delphi/Oracle "
+    }, {
+        "period": "2006.06-2007.05",
+        "title": " Middleware management system of Zhejiang Mobile Network",
+        "type": " Zhejiang Mobile Corporation",
+        "lang": " HTML/ACLE"
+    }, {
+        "period": "2007.10-2009.10",
+        "title": " Research on graphic retrieval based on pen based human-computer interaction",
+        "type": " Natural Science undation of Zhejiang province",
+        "lang": " Java"
+    }, {
+        "period": "2010.06-2010.12 ",
+        "title": "POS shopping system",
+        "type": " Lianhua Group Co. Ltd",
+        "lang": " Delphi/Oracle"
+    }, {
+        "period": " 2011.01-2011.06",
+        "title": " Zhejiang provincial military region financial centralized management system",
+        "type": " Zhejiang Military Region",
+        "lang": " ML/Java/Mysql"
+    }, {
+        "period": " 2012.01-2012.09",
+        "title": " Bank monitoring system",
+        "type": " Zhejiang industrial and Commercial Bank of china",
+        "lang": " HTML/Java/Mysql"
+    }, {
+        "period": " 2013.01-2013.09",
+        "title": " Zhejiang provincial military region financial centralized management system(Second phase)",
+        "type": " Zhejiang itary Region",
+        "lang": " HTML5/Java/Mysql"
+    }, {
+        "period": " 2014.06-2014.12 ",
+        "title": "The medical insurance system(IOS)",
+        "type": " Hangzhou billion health management Co., Ltd.",
+        "lang": " XCODE"
+    }, {
+        "period": " 2014.08-2015.12",
+        "title": " Wireless base station monitoring operation platform",
+        "type": " Zhejiang Communication Industry Service Co., ",
+        "lang": " HTML5/Js"
+    }, {
+        "period": " 2016.02-2016.10",
+        "title": " Remote diagnosis platform",
+        "type": " DIAN DIAGNOSTICS",
+        "lang": " HTML5/Java/Mysql"
+
+    }, {
+        "period": " 2016.04-2016.08",
+        "title": " Cell morphology remote consultation system(WEB)",
+        "type": " Sysmex Co. Ltd.",
+        "lang": " HTML5/Java/Mysql"
+    }, {
+        "period": " 2016.08-2016.12",
+        "title": " Cell morphology remote consultation system(IOS)",
+        "type": " Sysmex Co. Ltd.",
+        "lang": " HTML5/Java/Mysql"
+    }, {
+        "period": " 2017.01-2017.03 ",
+        "title": "SNCS reporting system",
+        "type": " Sysmex Co. Ltd.",
+        "lang": " HTML5/Java/Mysql"
+    }],
+
+    "Paper": [{
+        "period": "Li Yang, Wu ZhaoHu",
+        "title": " Research on formal semantics of component integration[J]",
+        "type": " Journal of Zhejiang University, 2004,38(2): 135-140",
+        "lang": "(EI Index)"
+    }, {
+        "period": "Li Yang, Wu ZhaoHu",
+        "title": " Research on a concurrent algorithm of component software architecture[J]",
+        "type": " Journal of Zhejiang University, 2004,38(4):392-396",
+        "lang": " (EI Index)"
+    }, {
+        "period": "Li Yang, Zhou Yi and WU ZhaoHui",
+        "title": " Abstract Software Architecture Model Based On Network Component[J]",
+        "type": " Journal of Zhejiang University, 2004, 38(11):1402-1407",
+        "lang": "(EI Index)"
+    }, {
+        "period": "Li Yang, ZhaoHui Wu",
+        "title": " A Research on the Java Architecture of Dynamic Self Healing[J]",
+        "type": " Journal of Zhejiang University, 2004, 39(2):216-220",
+        "lang": " (EI Index)"
+    }, {
+        "period": "Yang Li, ZhaoHui Wu and Can Wang",
+        "title": " Research on concurrent algorithm of component software architecture[C]",
+        "type": "IEEE SMC2004",
+        "lang": "(EI Index)"
+    }, {
+        "period": "Yang Li, ZhaoHui Wu and Can Wang",
+        "title": " Parallel Algorithm of Network Component Model[C]",
+        "type": " IEEE Tencon2004",
+        "lang": "(EI Index)"
+    }, {
+        "period": "Yang Li, ZhaoHui Wu",
+        "title": " Remote Invoking Algorithms of Self-Healing System [C]",
+        "type": "IEEE SMC2004",
+        "lang": " (EI Index)"
+    }, {
+        "period": "Yang Li, Yin Li and ZhaoHui Wu",
+        "title": " Parallel optimization architecture of network component model[C]",
+        "type": "ICCSA2004",
+        "lang": " (EI Index)"
+    }, {
+        "period": "Wang Can, Yang Li",
+        "title": " A Biological Formal Architecture of Self-Healing System[C]",
+        "type": " IEEE SMC2004",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li, Guanlin Chen",
+        "title": " Security asynchronous web services based on service-oriented architecture",
+        "type": " Journal of Zhejiang University , 2009, Vol 432: 40-45",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li, Ya-li Peng, Guo-hua Zhan, Liang Zhang",
+        "title": "The Research of Security Asynchronous Web Services based on SOA Architecture",
+        "type": " ICNSC2008, 1332-1336",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Ya-li PENG, Yang Li, Liang ZHANG , Xia-ling ZENG",
+        "title": "The Research of Movement Control Policy on Tiered Mobile",
+        "type": " ICNSC2008, 543-547",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li, ZhaoHui Wu",
+        "title": " Research on architecture of dynamic self-healing system ",
+        "type": " Journal of Zhejiang University , 2005 39(2)",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li,Yingjie Xia,Guo-hua Zhan",
+        "title": " A Secure Virtual Verification Model for Wireless Sensor Network",
+        "type": " CSO2010",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li, Bin Hu",
+        "title": "Multi-hop Encryption Protocol for Wireless Sensor Network",
+        "type": " ICNDC 2011",
+        "lang": " (EI Index)"
+    }, {
+        "period": "Yang Li, Bin Hu",
+        "title": " Research on Education Reform of Negative feedback teaching Process based on Cloudy Computing",
+        "type": " ICNDC2012",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li, Chen Xiang",
+        "title": "Research on Education Reform of Dynamic P2P Training Framework Based on Cloud Computing",
+        "type": "ICNDC2013",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Chen Xiang,Yang Li",
+        "title": " Geometry-Based Virtual Simulation for Fire Escape in Emergency Environment",
+        "type": "ICNDC2013",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yang Li, Chen Xiang",
+        "title": " Research on Education Reform of Dynamic P2P Training Framework Based on Cloud Computing",
+        "type": " ICNDC2014",
+        "lang": " (EI Index)"
+    }, {
+        "period": " LiYang,ChenXiang,LuXiao-ying,XingYa-lin",
+        "title": " Research on Security Portocol of Scheduled Services on Cloud Computing",
+        "type": " ICITEL2015",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Yingjie Xia,Mingzhe Zhu and Yang Li",
+        "title": "Towards Topology-and-Trust-Aware P2P Grid",
+        "type": " JOURNAL OF COMPUTERS, VOL.5, NO.9, SEPTEMBER 2010",
+        "lang": " (EI Index)"
+    }, {
+        "period": " Guo-hua Zhan, Yang Li",
+        "title": "The Research of Feedback Network Service Architecture ",
+        "type": "ICNDC2010",
+        "lang": " (EI Index)"
+    }],
+
+    "Patent": [{
+        "period": "Component parallel compiling method based on J2EE(ZL03157663X)",
+        "title": " Iention patent"
+    }, {
+        "period": "Anti skid paper tray(ZL200820120939.1)",
+        "title": " patent of utility model"
+    }, {
+        "period": "Spiral spoon(ZL200930327730.2)",
+        "title": " design patent"
+    }, {
+        "period": "Compiling method based on asynchronous secure call(ZL200710157166.4)",
+        "title": " Iention patent"
+    }, {
+        "period": "Secure communication method for wireless sensor network(ZL201010224993.2)",
+        "title": " Invention patent"
+    }]
+}
