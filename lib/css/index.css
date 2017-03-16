@@ -249,12 +249,13 @@ section .article-content p {
 .about-content  .col-md-2 a{
     font-size: 14px;
     font-weight: 600;
-    color: #008000;
+    color: #666;
+    
 }
 
 .about-content  .col-md-10 span{
     font-size: 14px;
-    color: #666;
+    color: #008000;
 }
 
 section .about-content {
