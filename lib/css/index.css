@@ -248,14 +248,13 @@ section .article-content p {
 
 .about-content  .col-md-2 a{
     font-size: 14px;
-    font-weight: 600;
     color: #666;
-    
 }
 
 .about-content  .col-md-10 span{
     font-size: 14px;
     color: #008000;
+    font-weight: 600;
 }
 
 section .about-content {
