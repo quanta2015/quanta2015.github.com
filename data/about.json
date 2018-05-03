@@ -25,6 +25,10 @@
         "period": "2002.09-2005.04",
         "university": "Zhejiang University",
         "major": "Computer system architecture/Doctor"
+    }, {
+        "period": "2017.02-2018.02",
+        "university": "Norwegian Institute for Water Research (NIVA)",
+        "major": "Cloud Database/Post Doctor"
     }],
 
     "Expertise": [{
@@ -132,6 +136,11 @@
         "title": "SNCS reporting system",
         "type": " Sysmex Co. Ltd.",
         "lang": " HTML5/Java/Mysql"
+    }, {
+        "period": " 2017.02-2018.02 ",
+        "title": "NIVA Risk Assessment Database",
+        "type": " Norwegian Institute for Water Research",
+        "lang": " HTML5/Java/PLSQL/Oracle"
     }],
 
     "Paper": [{
